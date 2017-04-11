@@ -1,0 +1,15 @@
+CREATE TABLE Product (
+    id int,
+    name varchar(255)
+);
+
+insert into product values (1,'First');
+
+CREATE TABLE Dependency(
+	id int,
+    name varchar(255)
+);
+
+insert into Dependency values (1,'INGJARModle - MySQL Database');
+insert into Dependency values (2,'INGApplication1Modle - Application1');
+insert into Dependency values (3,'INGApplication2Modle - Application2');
